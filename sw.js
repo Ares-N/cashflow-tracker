@@ -1,5 +1,5 @@
-const CACHE = "cashflow-v1";
-const ASSETS = ["/", "/index.html", "/manifest.json"];
+const CACHE = "cashflow-v2";
+const ASSETS = ["/cashflow-tracker/", "/cashflow-tracker/index.html", "/cashflow-tracker/manifest.json", "/cashflow-tracker/sw.js"];
 
 self.addEventListener("install", e => {
   e.waitUntil(
